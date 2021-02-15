@@ -135,6 +135,9 @@ C:\Users\Arno\Documents\School\2e jaar\Practise Enterprise\FirestoreTest\Firesto
 C:\Users\Arno\Documents\School\2e jaar\Practise Enterprise\FirestoreTest\FirestoreTest\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Arno\Documents\School\2e jaar\Practise Enterprise\FirestoreTest\FirestoreTest\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Arno\Documents\School\2e jaar\Practise Enterprise\FirestoreTest\FirestoreTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Arno\Documents\School\2e jaar\Practise Enterprise\FirestoreTest\FirestoreTest\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Arno\Documents\School\2e jaar\Practise Enterprise\FirestoreTest\FirestoreTest\bin\Debug\netcoreapp3.1\Firebase.Auth.dll
+C:\Users\Arno\Documents\School\2e jaar\Practise Enterprise\FirestoreTest\FirestoreTest\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Users\Arno\Documents\School\2e jaar\Practise Enterprise\FirestoreTest\FirestoreTest\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
 C:\Users\Arno\Documents\School\2e jaar\Practise Enterprise\FirestoreTest\FirestoreTest\obj\Debug\netcoreapp3.1\FirestoreTest.csproj.CoreCompileInputs.cache
 C:\Users\Arno\Documents\School\2e jaar\Practise Enterprise\FirestoreTest\FirestoreTest\obj\Debug\netcoreapp3.1\FirestoreTest.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Arno\Documents\School\2e jaar\Practise Enterprise\FirestoreTest\FirestoreTest\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
