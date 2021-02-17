@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest\\FirestoreTest.csproj": {}
+    "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest\\FirestoreTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.Domain\\FirestoreTest.Domain.csproj": {
+    "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.Domain\\FirestoreTest.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.Domain\\FirestoreTest.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.Domain\\FirestoreTest.Domain.csproj",
         "projectName": "FirestoreTest.Domain",
-        "projectPath": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.Domain\\FirestoreTest.Domain.csproj",
-        "packagesPath": "C:\\Users\\Arno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.Domain\\obj\\",
+        "projectPath": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.Domain\\FirestoreTest.Domain.csproj",
+        "packagesPath": "C:\\Users\\diede\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Arno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diede\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Firebase.Auth": {
               "target": "Package",
@@ -66,21 +68,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.repositories\\FirestoreTest.repositories.csproj": {
+    "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.repositories\\FirestoreTest.repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.repositories\\FirestoreTest.repositories.csproj",
+        "projectUniqueName": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.repositories\\FirestoreTest.repositories.csproj",
         "projectName": "FirestoreTest.repositories",
-        "projectPath": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.repositories\\FirestoreTest.repositories.csproj",
-        "packagesPath": "C:\\Users\\Arno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.repositories\\obj\\",
+        "projectPath": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.repositories\\FirestoreTest.repositories.csproj",
+        "packagesPath": "C:\\Users\\diede\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Arno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diede\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,9 +94,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.Domain\\FirestoreTest.Domain.csproj": {
-                "projectPath": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.Domain\\FirestoreTest.Domain.csproj"
+              "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.Domain\\FirestoreTest.Domain.csproj": {
+                "projectPath": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.Domain\\FirestoreTest.Domain.csproj"
               }
             }
           }
@@ -107,6 +110,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Firebase.Auth": {
               "target": "Package",
@@ -136,21 +140,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest\\FirestoreTest.csproj": {
+    "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest\\FirestoreTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest\\FirestoreTest.csproj",
+        "projectUniqueName": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest\\FirestoreTest.csproj",
         "projectName": "FirestoreTest",
-        "projectPath": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest\\FirestoreTest.csproj",
-        "packagesPath": "C:\\Users\\Arno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest\\obj\\",
+        "projectPath": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest\\FirestoreTest.csproj",
+        "packagesPath": "C:\\Users\\diede\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Arno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diede\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,9 +166,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirstoreTest.services\\FirstoreTest.services.csproj": {
-                "projectPath": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirstoreTest.services\\FirstoreTest.services.csproj"
+              "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirstoreTest.services\\FirstoreTest.services.csproj": {
+                "projectPath": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirstoreTest.services\\FirstoreTest.services.csproj"
               }
             }
           }
@@ -177,6 +182,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Firebase.Auth": {
               "target": "Package",
@@ -209,21 +215,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirstoreTest.services\\FirstoreTest.services.csproj": {
+    "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirstoreTest.services\\FirstoreTest.services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirstoreTest.services\\FirstoreTest.services.csproj",
+        "projectUniqueName": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirstoreTest.services\\FirstoreTest.services.csproj",
         "projectName": "FirstoreTest.services",
-        "projectPath": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirstoreTest.services\\FirstoreTest.services.csproj",
-        "packagesPath": "C:\\Users\\Arno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirstoreTest.services\\obj\\",
+        "projectPath": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirstoreTest.services\\FirstoreTest.services.csproj",
+        "packagesPath": "C:\\Users\\diede\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirstoreTest.services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Arno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diede\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -235,9 +241,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.repositories\\FirestoreTest.repositories.csproj": {
-                "projectPath": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.repositories\\FirestoreTest.repositories.csproj"
+              "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.repositories\\FirestoreTest.repositories.csproj": {
+                "projectPath": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.repositories\\FirestoreTest.repositories.csproj"
               }
             }
           }
@@ -250,6 +257,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Firebase.Auth": {
               "target": "Package",
@@ -275,7 +283,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

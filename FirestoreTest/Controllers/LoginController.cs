@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Firebase.Auth;
+using FirestoreTest.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,12 +16,49 @@ namespace FirestoreTest.Controllers
     {
         //provider met de api key
         FirebaseAuthProvider authProvider = new FirebaseAuthProvider(new FirebaseConfig("AIzaSyDCJLY-m61GNm7RJye8QHlpHX3eTe05eRg"));
-        public LoginController() {
-            
+        public LoginController()
+        {
+
+        }
+
+        public IActionResult Login()
+        {
+            var userToken = HttpContext.Session.GetString("_UserToken");
+
+            if (userToken != null)
+            {
+                return View("Succes");
+            }
+            else
+            {
+                return View();
+            }
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(LoginVM loginVM)
+        {
+            try
+            {
+                var fbAuthLink = await authProvider.SignInWithEmailAndPasswordAsync(loginVM.Email, loginVM.Password);
+                if (fbAuthLink != null)
+                {
+                    string token = fbAuthLink.FirebaseToken;
+                    HttpContext.Session.SetString("_UserToken", token);
+                    return View("Succes");
+                }
+
+            }
+            catch (Exception ex) { }
+
+            return Unauthorized();
+
         }
 
         public async Task<IActionResult> Index()
-        {            
+        {
+
             try
             {
                 //registreren met email/passwd
@@ -31,17 +69,17 @@ namespace FirestoreTest.Controllers
                 string token = fbAuthLink.FirebaseToken;
 
                 //token opslaan in een sessie variabele om te kunnen controleren of een user ingelogd is 
-                HttpContext.Session.SetString("_UserToken", token);         
-                
+                HttpContext.Session.SetString("_UserToken", token);
+
             }
-            catch (Exception ex){}
+            catch (Exception ex) { }
 
 
 
             //zou in een andere view of controller kunnen staan.
 
             //user token uit de sessievariabele ophalen
-            var userToken = HttpContext.Session.GetString("_UserToken");         
+            var userToken = HttpContext.Session.GetString("_UserToken");
 
             //controleren of er een usertoken is 
             if (userToken != null)
@@ -49,22 +87,24 @@ namespace FirestoreTest.Controllers
                 //controleren of er een user teruggevonden wordt / user informatie ophalen
                 //wss alleen nodig als je de user data nodig hebt zoals hier
                 User user = await authProvider.GetUserAsync(userToken);
+
                 if (user != null)
                 {
                     return View(user);
                 }
-                else {
+                else
+                {
                     return Unauthorized();
                 }
-                
+
             }
-            else {
+            else
+            {
                 return Unauthorized();
             }
 
             //om met roles te werken zou je in firestore een tabel kunnen maken met de web users waarin hun gebruikersid staat samen met de rol bv admin/clubverantw/politie
             //dan kun je dat toevoegen als controle bv voor het weergeven van een pagina
-           
         }
     }
 }

@@ -5924,19 +5924,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Arno\\.nuget\\packages\\": {}
+    "C:\\Users\\diede\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.Domain\\FirestoreTest.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.Domain\\FirestoreTest.Domain.csproj",
       "projectName": "FirestoreTest.Domain",
-      "projectPath": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.Domain\\FirestoreTest.Domain.csproj",
-      "packagesPath": "C:\\Users\\Arno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Arno\\Documents\\School\\2e jaar\\Practise Enterprise\\FirestoreTest\\FirestoreTest.Domain\\obj\\",
+      "projectPath": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.Domain\\FirestoreTest.Domain.csproj",
+      "packagesPath": "C:\\Users\\diede\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\diede\\OneDrive - Hogeschool VIVES\\Hoger\\2e jaar\\PRAC ENTER\\WEB\\TryOut\\firebase_mvc_test\\FirestoreTest.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Arno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\diede\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5948,6 +5948,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -5959,6 +5960,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Firebase.Auth": {
             "target": "Package",
@@ -5988,7 +5990,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
