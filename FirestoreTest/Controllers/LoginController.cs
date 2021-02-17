@@ -24,7 +24,6 @@ namespace FirestoreTest.Controllers
         public IActionResult Login()
         {
             var userToken = HttpContext.Session.GetString("_UserToken");
-
             if (userToken != null)
             {
                 return View("Succes");
@@ -48,12 +47,9 @@ namespace FirestoreTest.Controllers
                     HttpContext.Session.SetString("_UserToken", token);
                     return View("Succes");
                 }
-
             }
             catch (Exception ex) { }
-
             return Unauthorized();
-
         }
 
         public async Task<IActionResult> Index()
